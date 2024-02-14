@@ -4,8 +4,6 @@ import Headline from "./Headline";
 import Description from "./Description";
 import {Img} from "./Img";
 import {theme} from "../styles/Theme";
-import {Button} from "./Button";
-import {FlexWrapper} from "./FlexWrapper";
 import Buttons from "./Buttons";
 
 
@@ -21,7 +19,7 @@ type CardPropsType = {
 
 const Card = (props: CardPropsType) => {
     let onClick = () => {
-        alert('Тема карточки: '+`${props.cardTheme}`)
+        alert('Тема  выбранной карточки: '+`${props.cardTheme}`)
     }
 
     return (
